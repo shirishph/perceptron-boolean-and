@@ -41,17 +41,17 @@ class Perceptron(object):
                 cells = [row[0], row[1], self.learning_rate, row[2],
                          sum, activate]
 
-                change = self.weight1 + self.learning_rate *
+                change = self.weight1 + self.learning_rate * \
                 (row[2] - activate) * row[0]
                 cells.append(change)
                 self.weight1 = change
 
-                change = self.weight2 + self.learning_rate *
+                change = self.weight2 + self.learning_rate * \
                 (row[2] - activate) * row[1]
                 cells.append(change)
                 self.weight2 = change
 
-                change = self.bias + self.learning_rate *
+                change = self.bias + self.learning_rate * \
                 (row[2] - activate)
                 cells.append(change)
                 self.bias = change
