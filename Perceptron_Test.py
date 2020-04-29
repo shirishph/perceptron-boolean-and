@@ -13,7 +13,8 @@ class Perceptron_Test(unittest.TestCase):
 
         for test in [[1, 1], [0, 1], [1, 0], [0, 0]]:
             result = self.perceptron.predict(test[0], test[1])
-            print("evaluate ", str(test[0]).rjust(3, " "), str(test[1]).rjust(3, " "), ", result: ", result)
+            print("evaluate ", str(test[0]).rjust(3, " "),
+                  str(test[1]).rjust(3, " "), ", result: ", result)
 
 
 if __name__ == '__main__':
