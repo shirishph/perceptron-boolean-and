@@ -23,7 +23,7 @@ Loosely based on Thomas Countz' implementation from here: https://gist.github.co
 
 ## Sample Output
 ```
-(base) shirish@CVINPCSEKODI940:workarea/perceptron-boolean-and ‹setup*›$
+(base) shirish@***************:workarea/perceptron-boolean-and ‹master*›$
 ------------------------------------------------------------------------
     x1    x2    LR     t   sum   act   dw1   dw2    db    w1    w2     b
 ------------------------------------------------------------------------
